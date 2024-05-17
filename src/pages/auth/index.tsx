@@ -1,6 +1,7 @@
 import { authModalState } from '@/atoms/authModalAtoms';
 import AuthModal from '@/components/modals/AuthModal';
 import Navbar from '@/components/navbar/navbar';
+//import Navbar from '@/components/Navbar/Navbar';
 import { auth } from '@/firebase/firebase';
 import { useRouter } from 'next/router';
 import React, { use, useEffect, useState } from 'react';
