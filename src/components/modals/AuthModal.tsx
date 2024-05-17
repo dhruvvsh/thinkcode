@@ -38,10 +38,10 @@ const AuthModal:React.FC<AuthModalProps> = () => {
 export default AuthModal;
 
 function useCloseModal(){
-    const setAuthModalState=useSetRecoilState(authModalState);
+    const setAuthModal=useSetRecoilState(authModalState);
     const closeModal=()=>{
     
-        setAuthModalState((prev)=>({...prev,isopen:false, type:"login"}))
+        setAuthModal((prev)=>({...prev, isOpen:false, type:"login"}))
     };
      
     useEffect(() => {
