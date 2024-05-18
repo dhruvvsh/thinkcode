@@ -6,9 +6,9 @@ import { useSetRecoilState } from "recoil";
 type NavbarProps = {};
 
 const Navbar: React.FC<NavbarProps> = () => {
-	const setauthModalState = useSetRecoilState(authModalState);
+	const setAuthModalState = useSetRecoilState(authModalState);
 	const handleClick = () => {
-		setauthModalState((prev) => ({ ...prev, isOpen: true }));
+		setAuthModalState((prev) => ({ ...prev, isOpen: true }));
 	};
 	return (
 		<div className='flex items-center justify-between sm:px-12 px-2 md:px-24'>
