@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Image from "next/image";
 import { authModalState } from "@/atoms/authModalAtoms";
-import Navbar from "@/components/Navbar/Navbar";
+import Navbar from "@/components/navbar/Navbar";
 type AuthPageProps = {};
 
 const AuthPage: React.FC<AuthPageProps> = () => {
